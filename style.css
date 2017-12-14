@@ -1,0 +1,103 @@
+body {
+  background: #4383a0;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Century Gothic;
+}
+
+.navigation a {
+  font-size: 15px;
+  letter-spacing: 4px;
+  background: #ffa530;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: background .4s;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;  
+}
+
+.navigation a:hover {
+  letter-spacing: 4px;
+  background: #ffbae8;
+  color: white;
+}
+
+h1 {
+  position: relative; margin-top: 35px;
+  font-size: 70px;
+  color: white;
+}
+
+.container {
+  width:300px;
+  height:400px;
+  background:white;
+  margin: 0 auto;
+  border: 2px solid white;
+  box-shadow: 0 15px 40px rgba(0,0,0,.5);
+  position: relative; top: 50px;
+  text-align: center;
+}
+
+.container .form {
+    position: relative; margin-top: 10px;
+}
+
+.subtitle {
+  position: relative; margin-top: 40px;
+  font-size: 40px;
+  color: black;
+  position: relative;
+}
+
+.loginbutton {
+    background-color: #ffa530;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background .3s;
+}
+
+.loginbutton:hover {
+  background-color: #ffbae8;
+}
+
+.imgmusclelogo {
+  position: relative;
+  margin-top: -160px;
+  
+}
+
+.musclelogocircle {
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 250px;
+    margin: 0 auto;
+    position: relative; top: 110px;
+    text-align: center;
+}
+
+.box {
+  width: 100%;
+  height: 70px;
+  margin-top: 550px;
+  background-color: #ffa530;
+  position: fixed;
+}
+
+.box2 {
+  width: 100%;
+  height: 10px;
+  margin-top: 620px;
+  background-color: #ffbae8;
+  position: fixed;
+}
